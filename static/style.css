@@ -1,0 +1,48 @@
+body{
+    display:flex;
+    justify-content:center;
+    background-color: #202c88;
+}
+
+.boggle-board, .game-info, .words-found{
+    margin: 3%;
+    font-size: 20px;
+    color: white;
+}
+
+.boggle-board{
+    border: 2px solid black;
+    text-align: center;
+    background-color: black;
+    display: inline-block;
+}
+td{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #5360c2;
+    font-size: 40px;
+}
+caption{
+    background-color: white;
+    font-size: 40px;
+    color: #202c88;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.game-info{
+    display: inline-block;
+}
+
+.words-found{
+    display: inline-block;
+}
+form{
+    margin-top: 60px;
+}
+.message{
+    color: white
+}
+li{
+    list-style-type: none;
+}
